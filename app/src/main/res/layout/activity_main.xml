@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rejestracja"
+        android:textSize="30sp"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Utwórz nowe konto"
+        android:textSize="17sp"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:labelFor="@+id/imie"
+        android:textSize="16sp"
+        android:layout_marginTop="30dp"
+        android:text="Imie"
+        />
+    <EditText
+        android:id="@+id/imie"
+        android:hint="Wpisz imię"
+        android:layout_margin="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:labelFor="@+id/nazwisko"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp"
+        android:text="Nazwisko"
+        />
+
+
+    <EditText
+        android:id="@+id/nazwisko"
+        android:hint="Wpisz nazwisko"
+        android:layout_margin="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:labelFor="@+id/email"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp"
+        android:text="Email"
+        />
+
+
+    <EditText
+        android:id="@+id/email"
+        android:hint="Wpisz nazwisko"
+        android:layout_margin="6dp"
+        android:layout_width="match_parent"
+        android:inputType="textEmailAddress"
+        android:layout_height="wrap_content"
+
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:labelFor="@+id/haslo"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp"
+        android:text="Haslo"
+        />
+
+
+    <EditText
+        android:id="@+id/haslo"
+        android:hint="Wpisz hasło"
+        android:layout_margin="6dp"
+        android:layout_width="match_parent"
+        android:inputType="textPassword"
+        android:layout_height="wrap_content"
+
+
+        />
+
+    <Button
+        android:id="@+id/btnRejestruj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ZAREJESTRUJ"
+        android:layout_marginTop="30dp"
+        />
+
+
+</LinearLayout>
